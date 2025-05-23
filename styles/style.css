@@ -59,19 +59,21 @@ ol {
 .content {
   display: grid;
   gap: 30px;
-  inline-size: 1140px;
+  
   margin: auto;
   padding-bottom: 133px;
 }
 
 .content__details {
   grid-column-start: 2;
+  min-width: 400px;
+  height: auto;
 }
 
 .search-form {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 37px;
 }
 
 .search-form__fieldset {
